@@ -1,5 +1,15 @@
 [[redirects]]
-  from = "/*"
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/call"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/call/*"
   to = "/index.html"
   status = 200
 

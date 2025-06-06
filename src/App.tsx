@@ -31,6 +31,14 @@ const AnimatedRoutes = () => {
             </PageTransition>
           }
         />
+        <Route
+          path="*"
+          element={
+            <PageTransition>
+              <Home />
+            </PageTransition>
+          }
+        />
       </Routes>
     </AnimatePresence>
   );
@@ -38,7 +46,7 @@ const AnimatedRoutes = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <AnimatedRoutes />
     </Router>
   );
