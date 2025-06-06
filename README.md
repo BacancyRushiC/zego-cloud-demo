@@ -2,6 +2,10 @@
 
 A modern, real-time video calling application built with React, TypeScript, and Zego Cloud. Features a beautiful UI with smooth animations and a seamless user experience.
 
+## Live Demo
+
+Visit the live application at: [https://zego-cloud-demo.netlify.app/](https://zego-cloud-demo.netlify.app/)
+
 ## Features
 
 - 🎥 Real-time video calling
